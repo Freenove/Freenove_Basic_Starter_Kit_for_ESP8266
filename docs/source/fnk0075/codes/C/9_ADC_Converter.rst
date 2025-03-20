@@ -142,7 +142,7 @@ Turn the rotary potentiometer shaft, and you can see the voltage change.
 
 The following is the code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_09.1_ADC/Sketch_09.1_ADC.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_08.1_ADC/Sketch_08.1_ADC.ino
     :linenos: 
     :language: c
     :lines: 1-22

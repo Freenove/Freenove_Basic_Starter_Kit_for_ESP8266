@@ -125,7 +125,7 @@ Code
 
 Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP8266/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
-Open "Thonny", click "This computer" -> "D:" -> "Micropython_Codes" -> "09.1_AnalogRead and then click "AnalogRead.py". 
+Open "Thonny", click "This computer" -> "D:" -> "Micropython_Codes" -> "08.1_AnalogRead and then click "AnalogRead.py". 
 
 AnalogRead 
 ---------------------
@@ -144,7 +144,7 @@ Turn the rotary potentiometer shaft, and you can see the voltage change.
 
 The following is the code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/09.1_AnalogRead/AnalogRead.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/08.1_AnalogRead/AnalogRead.py
     :linenos: 
     :language: python
     :lines: 1-13
@@ -152,7 +152,7 @@ The following is the code:
 
 Import Pin, ADC and DAC modules.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/09.1_AnalogRead/AnalogRead.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/08.1_AnalogRead/AnalogRead.py
     :linenos: 
     :language: python
     :lines: 1-2
@@ -160,7 +160,7 @@ Import Pin, ADC and DAC modules.
 
 Read ADC value once every 100 millisecods, and "Shell" prints ADC value and the output voltage of potentiometer and other information.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/09.1_AnalogRead/AnalogRead.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/08.1_AnalogRead/AnalogRead.py
     :linenos: 
     :language: python
     :lines: 8-11

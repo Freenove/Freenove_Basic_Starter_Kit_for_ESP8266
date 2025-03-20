@@ -133,7 +133,7 @@ In this project, a buzzer will be controlled by a push button switch. When the b
 
 Upload following sketch:
 
-**Freenove_Ultimate_Starter_Kit_for_ESP8266\C\Sketches\Sketch_07.1_Doorbell**
+**Freenove_Ultimate_Starter_Kit_for_ESP8266\C\Sketches\Sketch_06.1_Doorbell**
 
 Sketch_Doorbell
 ---------------------------
@@ -148,7 +148,7 @@ Download the code to ESP8266, press the push button switch and the buzzer will s
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_07.1_Doorbell/Sketch_07.1_Doorbell.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_06.1_Doorbell/Sketch_06.1_Doorbell.ino
     :linenos: 
     :language: c
     :lines: 1-21
@@ -181,7 +181,7 @@ Download the code to ESP8266, press the button, then alarm sounds. And when the 
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_07.2_Aleror/Sketch_07.2_Aleror.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_06.2_Aleror/Sketch_06.2_Aleror.ino
     :linenos: 
     :language: c
     :lines: 1-35
@@ -189,7 +189,7 @@ The following is the program code:
 
 In the code, use one loop to control the sound frequency, varying according to sine curve in the range of 500±500.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_07.2_Aleror/Sketch_07.2_Aleror.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_06.2_Aleror/Sketch_06.2_Aleror.ino
     :linenos: 
     :language: c
     :lines: 26-34

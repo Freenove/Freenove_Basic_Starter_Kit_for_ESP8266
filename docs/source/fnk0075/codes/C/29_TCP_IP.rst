@@ -67,7 +67,7 @@ Unzip the downloaded file to your computer. Click "processing.exe" as the figure
 Use Server mode for communication
 --------------------------------------
 
-Open the "Freenove_Ultimate_Starter_Kit_for_ESP8266\\C\\Sketches\\Sketch_29.1_WiFiClient\\sketchWiFi\sketchWiFi.pde", and click "Run".
+Open the "Freenove_Ultimate_Starter_Kit_for_ESP8266\\C\\Sketches\\Sketch_13.1_WiFiClient\\sketchWiFi\sketchWiFi.pde", and click "Run".
 
 .. image:: ../_static/imgs/29_TCP_IP/Chapter29_04.png
     :align: center
@@ -179,7 +179,7 @@ ESP8266 connects with TCP SERVER, and TCP SERVER receives messages from ESP8266,
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_29.1_WiFiClient/Sketch_29.1_WiFiClient.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_13.1_WiFiClient/Sketch_13.1_WiFiClient.ino
     :linenos: 
     :language: c
     :lines: 1-59
@@ -187,7 +187,7 @@ The following is the program code:
 
 Add WiFi function header file.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_29.1_WiFiClient/Sketch_29.1_WiFiClient.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_13.1_WiFiClient/Sketch_13.1_WiFiClient.ino
     :linenos: 
     :language: c
     :lines: 7-7
@@ -195,7 +195,7 @@ Add WiFi function header file.
 
 Enter the actual router name, password, remote server IP address, and port number.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_29.1_WiFiClient/Sketch_29.1_WiFiClient.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_13.1_WiFiClient/Sketch_13.1_WiFiClient.ino
     :linenos: 
     :language: c
     :lines: 9-12
@@ -203,7 +203,7 @@ Enter the actual router name, password, remote server IP address, and port numbe
 
 Apply for the method class of WiFiClient.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_29.1_WiFiClient/Sketch_29.1_WiFiClient.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_13.1_WiFiClient/Sketch_13.1_WiFiClient.ino
     :linenos: 
     :language: c
     :lines: 13-13
@@ -211,7 +211,7 @@ Apply for the method class of WiFiClient.
 
 Connect specified WiFi until it is successful. If the name and password of WiFi are correct but it still fails to connect, please push the reset key.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_29.1_WiFiClient/Sketch_29.1_WiFiClient.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_13.1_WiFiClient/Sketch_13.1_WiFiClient.ino
     :linenos: 
     :language: c
     :lines: 19-24
@@ -219,7 +219,7 @@ Connect specified WiFi until it is successful. If the name and password of WiFi 
 
 Send connection request to remote server until connect successfully. When connect successfully, print out the connecting prompt on the serial monitor and send messages to remote server.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_29.1_WiFiClient/Sketch_29.1_WiFiClient.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_13.1_WiFiClient/Sketch_13.1_WiFiClient.ino
     :linenos: 
     :language: c
     :lines: 34-39
@@ -227,7 +227,7 @@ Send connection request to remote server until connect successfully. When connec
 
 When ESP8266 receive messages from servers, it will print them out via serial port; Users can also send messages to servers from serial port.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_29.1_WiFiClient/Sketch_29.1_WiFiClient.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_13.1_WiFiClient/Sketch_13.1_WiFiClient.ino
     :linenos: 
     :language: c
     :lines: 44-54
@@ -235,7 +235,7 @@ When ESP8266 receive messages from servers, it will print them out via serial po
 
 If the server is disconnected, turn off WiFi of ESP8266.
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_29.1_WiFiClient/Sketch_29.1_WiFiClient.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_13.1_WiFiClient/Sketch_13.1_WiFiClient.ino
     :linenos: 
     :language: c
     :lines: 55-58

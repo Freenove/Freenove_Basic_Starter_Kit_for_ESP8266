@@ -94,7 +94,7 @@ Click "Run current script". Cover the photoresistor with your hands or illuminat
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/11.1_NightLamp/NightLamp.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/10.1_NightLamp/NightLamp.py
     :linenos: 
     :language: python
     :lines: 1-14

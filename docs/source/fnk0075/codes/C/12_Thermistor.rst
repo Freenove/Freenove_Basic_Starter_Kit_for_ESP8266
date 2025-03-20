@@ -111,7 +111,7 @@ Download the code to ESP8266, the terminal window will display the current ADC v
 
 The following is the code:
 
-.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_12.1_Thermometer/Sketch_12.1_Thermometer.ino
+.. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_11.1_Thermometer/Sketch_11.1_Thermometer.ino
     :linenos: 
     :language: c
     :lines: 1-20

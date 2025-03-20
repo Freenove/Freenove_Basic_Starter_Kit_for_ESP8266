@@ -133,7 +133,7 @@ In this project, a buzzer will be controlled by a push button switch. When the b
 
 Move the program folder "Freenove_Ultimate_Starter_Kit_for_ESP8266/Python/Python_Codes" to disk(D) in advance with the path of "D:/Micropython_Codes".
 
-Open "Thonny", click "This computer" -> "D:" -> "Micropython_Codes" -> "07.1_Doorbell" and double click "Doorbell.py". 
+Open "Thonny", click "This computer" -> "D:" -> "Micropython_Codes" -> "06.1_Doorbell" and double click "Doorbell.py". 
 
 Doorbell
 -------------------------
@@ -148,7 +148,7 @@ Click "Run current script", press the push button switch and the buzzer will sou
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/07.1_Doorbell/Doorbell.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/06.1_Doorbell/Doorbell.py
     :linenos: 
     :language: python
     :lines: 1-12
@@ -168,9 +168,9 @@ Code
 
 In this project, the buzzer alarm is controlled by the button. Press the button, then buzzer sounds. If you release the button, the buzzer will stop sounding. In the logic, it is the same as using button to control LED. In the control method, passive buzzer requires PWM of certain frequency to sound.
 
-Open "Thonny", click "This computer" -> "D:" -> "Micropython_Codes" -> "07.2_Alertor", and double click "Alertor.py". 
+Open "Thonny", click "This computer" -> "D:" -> "Micropython_Codes" -> "06.2_Alertor", and double click "Alertor.py". 
 
-07.2_Alertor
+06.2_Alertor
 -------------------------------
 
 .. image:: ../_static/imgs/7_Buzzer/Chapter07_18.png
@@ -183,7 +183,7 @@ Click "Run current script", press the button, then alarm sounds. And when the bu
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/07.2_Alertor/Alertor.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/06.2_Alertor/Alertor.py
     :linenos: 
     :language: python
     :lines: 1-26
@@ -191,7 +191,7 @@ The following is the program code:
 
 Import PWM, Pin, math and time modules.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/07.2_Alertor/Alertor.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/06.2_Alertor/Alertor.py
     :linenos: 
     :language: python
     :lines: 1-3
@@ -199,7 +199,7 @@ Import PWM, Pin, math and time modules.
 
 Define the pins of the button and passive buzzer.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/07.2_Alertor/Alertor.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/06.2_Alertor/Alertor.py
     :linenos: 
     :language: python
     :lines: 5-7
@@ -207,7 +207,7 @@ Define the pins of the button and passive buzzer.
 
 Call sin function of math module to generate the frequency data of the passive buzzer.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/07.2_Alertor/Alertor.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/06.2_Alertor/Alertor.py
     :linenos: 
     :language: python
     :lines: 9-16
@@ -215,7 +215,7 @@ Call sin function of math module to generate the frequency data of the passive b
 
 When not using PWM, please turn it OFF in time.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/07.2_Alertor/Alertor.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/06.2_Alertor/Alertor.py
     :linenos: 
     :language: python
     :lines: 23-24
